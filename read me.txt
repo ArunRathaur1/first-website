@@ -1,0 +1,2 @@
+paste all the files in a folder and run the website.html file to see the website.
+some pages is not added once added I will add in this place

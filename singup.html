@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>Sing Up</title>
+        <style>
+            body{
+               background-color: azure;
+            }
+            div[class="totall"]{
+               background-image: url(3357683.jpg);
+               overflow: auto;
+               border-radius: 10px;
+            }
+            div[class="total"]{
+                background-color: rgb(34, 34, 99);
+                margin-right: 5cm;
+                float:right;
+                border-radius:10px;
+                width:8cm;
+                margin-top:2.5cm;
+                text-align: center;
+                margin-bottom:3cm;
+
+            }
+            input[type="email"],input[type="password"]{
+                width:6cm;
+                height:1cm;
+                outline:none;
+                border:none;
+                background-color: rgb(34, 34, 99);
+                color:white;
+            }
+            button{
+                width: 6cm;
+                height: 1cm;
+                font-size:16px;
+                font-weight: 900px;
+                border-radius: 5px;
+                outline:none;
+                border:none;
+                font-family: 'Times New Roman';
+            }
+            hr[class="line"]{
+                width:6cm;
+                position: relative;
+                bottom:20px;
+            }
+            p[class="heading"]{
+                padding-top:20px;
+                color:aqua;
+                font-size:x-large;
+            }
+            p[class="bottomline"]{
+                padding-bottom:20px;
+            }
+            img[class="google"]{
+                width:20px;
+                position: relative;
+                top:45px;
+                right:90px;
+                background-color: aliceblue;
+             }
+            img[class="facebook"]{
+                width:20px;
+                position: relative;
+                top:45px;
+                right:90px;
+                background-color: aliceblue;
+            }
+            div[class="facebooktotal"]{
+                position: relative;
+                bottom:30px;
+            }
+            button:hover{
+                background-color:darkgreen;
+                color: white;
+            }
+            span{
+                text-decoration: underline;
+                color:lightgreen;
+
+            }
+            span:hover{
+                color:rgb(4, 133, 15);
+            }
+            div[class="row1"]{
+              
+                border-radius:10px;
+                overflow: auto;
+            }
+            div[class="onleft"]{
+                display:flex;
+            } 
+            div[class="onright"]{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                position: relative;
+                float:right;
+                bottom:25px;
+            }
+            img{
+                width: 2cm;
+            }
+            li{
+                list-style: none;
+                padding-left:1cm;
+                font-size: large;
+                color:rgb(27, 171, 171);
+            }
+            li:hover{
+                color:rgb(11, 91, 91);
+            }
+            button[class="signup"]{
+                font-size: large;
+                width:4cm;
+                height: 1cm;
+                border-radius: 5px;
+                border-style: none;
+                margin-right:10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row1">
+            <p class="space"></p>
+            <div class="onleft">
+                <img src="logo.png">
+                 <a href="website.html" style="text-decoration: none;"><li>Slack</li></a>
+                 <a href="whyslack.html" style="text-decoration: none;"><li>Why Slack</li></a>
+                <li>Solution</li>
+                <li>Resources</li>
+                <a href="pricing.html"  style="text-decoration: none;"><li>Pricing</li></a>
+            </div>
+            <div class="onright">
+                <a href=singup.html><button class="signup" >Sign Up</button></a>
+                <a href="getstarted.html">      <button class="signup" >Get Started</button></a>
+            </div>
+        </div>
+        <div class="totall" style="background-image:url(3357683.jpg);">
+          <div class="total">
+            <p class="heading">Sign Up</p>
+            <p><input type="email" placeholder="Email" ></p>
+            <hr class="line">
+            <p><input type="password" placeholder="Password"></p>
+            <hr class="line">
+            <p><input type="password" placeholder=" Confirm Password"></p>
+            <hr class="line">
+            <P><button>Sign Up</button></P>
+            <p style="color:white">Already have Account?<a href="siginin.html"><span>Sign in</span></a></p>
+            <hr style="width: 6cm;">
+            <p><img src="googlelogo.png"  class="google"></p>
+            <p><button class="googlebutton">Login with Google</button></p>
+            <div class="facebooktotal">
+            <p><img src="facebooklogo.png"  class="facebook"></p>
+            <p class="bottomline"><button>Login with Facebook</button></p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
